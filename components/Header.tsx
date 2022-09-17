@@ -9,7 +9,7 @@ export default function Header({}: Props) {
       <div className="flex flex-row items-center">
         {/* Social Icons */}
         <SocialIcon 
-          url="https://instagram.com/clubmate90210" 
+          url="https://github.com/planetoida90210" 
           fgColor="gray" 
           bgColor="transparent" 
         />
