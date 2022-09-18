@@ -19,7 +19,7 @@ export default function Header({}: Props) {
           bgColor="transparent" 
         />
         <SocialIcon 
-          url="https://instagram.com/clubmate90210" 
+          url="https://facebook.com/emanuel.delawarski" 
           fgColor="gray" 
           bgColor="transparent" 
         />
