@@ -9,8 +9,6 @@ const Home: NextPage = () => {
       <Head>
         <title>Michał Bryk - Porfolio</title>
       </Head>
-
-      {/* Header */}
       <Header />
       {/* Hero */}
 
