@@ -5,7 +5,7 @@ type Props = {}
 
 export default function ExperienceCard({}: Props) {
   return (
-    <article>
+    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 xl:mt-20 opacity-40 hover:opacity-100 transition-opacity duration-200 overflow-hidden cursor-pointer">
         <motion.img 
          initial={{ y: -100,opacity: 0 }}
          transition={{ duration: 1.2 }}
@@ -16,14 +16,14 @@ export default function ExperienceCard({}: Props) {
          alt="experience hero image"
         />
 
-        <div>
-            <h4>Web Developer</h4>
-            <p>MICROSOFT</p>
-            <div>
+        <div className="px-0 md:px-10">
+            <h4 className="text-4xl font-light">Web Developer</h4>
+            <p className="font-bold uppercase text-2xl mt-1">Microsoft</p>
+            <div className="flex space-x-2 my-2">
 
             </div>
-            <p>Started work ... Ended....</p>
-            <ul>
+            <p className="uppercase py-5 text-gray-300">Started work ... Ended....</p>
+            <ul className="list-disc space-y-4 text-lg">
                 <li>obowiazki</li>
                 <li>obowiazki</li>
                 <li>obowiazki</li>
